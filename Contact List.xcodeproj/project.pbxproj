@@ -15,6 +15,7 @@
 		A9DD861728879E5100EA5F9A /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD861628879E5100EA5F9A /* ContactList.swift */; };
 		A9DD861B2887A26900EA5F9A /* ContactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD861A2887A26900EA5F9A /* ContactData.swift */; };
 		A9DD861F2887A84000EA5F9A /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD861E2887A84000EA5F9A /* ContactRow.swift */; };
+		EC4D38752887B1F9004B91DF /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D38742887B1F9004B91DF /* ContactCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A9DD861628879E5100EA5F9A /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		A9DD861A2887A26900EA5F9A /* ContactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactData.swift; sourceTree = "<group>"; };
 		A9DD861E2887A84000EA5F9A /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		EC4D38742887B1F9004B91DF /* ContactCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactCard.swift; path = ../../../ContactCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		A9DD861328879E0C00EA5F9A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EC4D38742887B1F9004B91DF /* ContactCard.swift */,
 				A9DD8605288797CA00EA5F9A /* ContentView.swift */,
 				A9DD861628879E5100EA5F9A /* ContactList.swift */,
 				A9DD861E2887A84000EA5F9A /* ContactRow.swift */,
@@ -171,6 +174,7 @@
 				A9DD8604288797CA00EA5F9A /* Contact_ListApp.swift in Sources */,
 				A9DD861B2887A26900EA5F9A /* ContactData.swift in Sources */,
 				A9DD861F2887A84000EA5F9A /* ContactRow.swift in Sources */,
+				EC4D38752887B1F9004B91DF /* ContactCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
