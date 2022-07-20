@@ -11,6 +11,7 @@
 		A9DD8606288797CA00EA5F9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD8605288797CA00EA5F9A /* ContentView.swift */; };
 		A9DD8608288797CA00EA5F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DD8607288797CA00EA5F9A /* Assets.xcassets */; };
 		A9DD860B288797CA00EA5F9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DD860A288797CA00EA5F9A /* Preview Assets.xcassets */; };
+		A9DD861228879C9D00EA5F9A /* Contact_Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD861128879C9D00EA5F9A /* Contact_Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A9DD8605288797CA00EA5F9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9DD8607288797CA00EA5F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9DD860A288797CA00EA5F9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9DD861128879C9D00EA5F9A /* Contact_Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact_Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A9DD8603288797CA00EA5F9A /* Contact_ListApp.swift */,
 				A9DD8605288797CA00EA5F9A /* ContentView.swift */,
+				A9DD861128879C9D00EA5F9A /* Contact_Profile.swift */,
 				A9DD8607288797CA00EA5F9A /* Assets.xcassets */,
 				A9DD8609288797CA00EA5F9A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9DD861228879C9D00EA5F9A /* Contact_Profile.swift in Sources */,
 				A9DD8606288797CA00EA5F9A /* ContentView.swift in Sources */,
 				A9DD8604288797CA00EA5F9A /* Contact_ListApp.swift in Sources */,
 			);
