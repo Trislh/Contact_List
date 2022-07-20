@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct Contact_List: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List(contacts) {
+                contact in
+                ContactRow(contact: contact)
+            }
+        }
     }
 }
 
